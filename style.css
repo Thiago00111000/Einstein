@@ -1,10 +1,53 @@
-body {
-    background-color: white;
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@100..900&family=M+PLUS+1+Code:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
 }
 
-h1{
-    font-family: "Open Sans", sans-serif;
-    font-weight: 300;
+:root{
+    --white:white;
+}
+
+body{
+    background: rgb(2,0,36);
+    background-image: url(myxeria.png);
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    padding: 0px 20px;
+    size: 500px;
+    background-repeat:no-repeat;
+}
+
+.hipertitle{
+    font-optical-sizing: auto;
+    padding: 50px 50px;
+}
+
+.title{
+    font-family: "Foldit", sans-serif;
     font-style: normal;
-    
+    font-weight: 400;
+    font-size: 100px;
+    color: var(--white);
+}
+
+.subtitle{
+    font-family: "M PLUS 1 Code", monospace;
+    font-style: normal;
+    font-weight: 500;
+    color: var(--white);
+}
+
+a{
+    color: var(--white);
+    text-decoration: none;
+}
+
+.top{
+    padding: 50px 50px;
+    color: var(--white);
+    border: 1px solid var(--white);
+    display:inline-block;
 }
