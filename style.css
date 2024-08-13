@@ -7,6 +7,7 @@
 
 :root{
     --white:rgb(243, 240, 240);
+    --black: black;
     --red: red;
     --blue:rgb(2,0,36);
 }
@@ -18,7 +19,7 @@ body{
     width: 100%;
     backdrop-filter: sepia(15%);
     background-size: 100%;
-    padding: 0px 20px;
+    padding: 0px 0px;
     size: 500px;
     background-repeat:no-repeat;
 }
@@ -37,6 +38,14 @@ header{
     font-weight: 100;
     font-size: 100px;
     color: var(--red);
+}
+
+.title.boss{
+    color: var(--black);
+    font-size: 50px;
+    padding: 60px 50px;
+    padding-bottom: 20px;
+    justify-content: left;
 }
 
 .subtitle{
@@ -63,12 +72,33 @@ a{
     border: 1px solid var(--white);
 }
 
+.osborn{
+    color: var(--black);
+}
+
+.main{
+    padding-bottom: 300px ;
+    color: var(--white);
+}
+
 .head-text{
     font-family: "M PLUS 1 Code", monospace;
     font-style: normal;
     font-weight: 300;
     font-size:20px;
     color: var(--white);
-
     padding: 5px 50px;
+}
+
+.text{
+    font-family: "M PLUS 1 Code", monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px 50px;
+    justify-content: center;
+}
+
+.line{
+    padding-bottom: 10px;
 }
