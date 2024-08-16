@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap&family=M+PLUS+1+Code:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap&family=M+PLUS+1+Code:wght@100&display=swap&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900');
 
 *{
     margin: 0;
@@ -6,14 +6,20 @@
 }
 
 :root{
-    --white:rgb(243, 240, 240);
+    --white:rgb(238, 234, 234);
     --black: black;
     --red: red;
     --blue:rgb(2,0,36);
+    --neoblue: rgba(50, 42, 211, 0.329);
 }
 
 body{
-    background: var(--white);
+    color: black;
+}
+
+header{
+    padding: 50px 50px;
+    background: var(--blue);
     background-image: url(myxeria.png);
     height: 100%;
     width: 100%;
@@ -24,11 +30,8 @@ body{
     background-repeat:no-repeat;
 }
 
-header{
-    padding: 50px 50px;
-}
-
 .hipertitle{
+    padding: 50px 50px;
     padding-bottom: 50px;
 }
 
@@ -61,7 +64,7 @@ a{
 }
 
 .top{
-    padding: 50px 0;
+    padding: 50px 50px;
     display:flex;
     font-family: "M PLUS 1 Code", monospace;
     color: var(--white);
@@ -69,7 +72,7 @@ a{
 
 .topicos{
     padding: 25px 50px;
-    border: 1px solid var(--white);
+    
 }
 
 .osborn{
@@ -102,3 +105,41 @@ a{
 .line{
     padding-bottom: 10px;
 }
+
+.accordion{
+    min-width: 100px;
+    max-width: 180px;
+}
+
+.accordion-button {
+    background-color: transparent;
+    color: var(--white);
+    padding: 30px 50px;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    width: 100%;
+    border: 1px solid var(--white);
+    transition: background-color 0.3s;
+}
+
+.accordion-button:hover {
+    background-color: var(--neoblue);
+}
+
+.accordion-content {
+    font-family: "M PLUS 1 Code", monospace;
+    font-weight: 200;
+    color: var(--white);
+    padding: 0 10px;
+    max-height: 0;
+    overflow: hidden;
+    background-color: var(--neoblue);
+    transition: max-height 0.3s ease-out;
+}
+
+.accordion-content p {
+    margin: 10px 0;
+}
+
+/*emphaty crystal palace
