@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pai Virtual</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="wrench.png">
+</head>
+<body>
+    <header>
+        <div class="hipertitle">
+            <a href="index.html"><h1 class="title">Pai Virtual</h1></a>
+            <h2 class="subtitle">Tudo sobre tudo, de reparos a conselhos</h2>
+        </div>
+    </header>
+    <span>
+        <div class="title" id="relogio">
+            <span id="hora"></span>:<span id="minuto"></span>:<span id="segundo"></span>
+        </div>
+        <script src="script.js"></script>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            
+            :root{
+                --white:rgb(238, 234, 234);
+                --black: black;
+                --red: red;
+                --blue:rgb(2,0,36);
+                --neoblue: rgba(50, 42, 211, 0.329);
+            }
+            
+            body{
+                padding: 50px 50px;
+                background: var(--white);
+                background-image: url(Imgs/myxeria.png);
+                height: 100%;
+                width: 100%;
+                backdrop-filter: sepia(15%);
+                background-size: 100%;
+                padding: 0px 0px;
+                size: 500px;
+                background-repeat:no-repeat;
+            }
+            
+            
+            #relogio {
+                font-size: 15rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }</style>
+    </span>
+</body>
+</html>
